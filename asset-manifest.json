@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/metadoge-refund-app/static/css/main.e6c13ad2.css",
-    "main.js": "/metadoge-refund-app/static/js/main.abb3d38c.js",
-    "index.html": "/metadoge-refund-app/index.html",
-    "main.e6c13ad2.css.map": "/metadoge-refund-app/static/css/main.e6c13ad2.css.map",
-    "main.abb3d38c.js.map": "/metadoge-refund-app/static/js/main.abb3d38c.js.map"
+    "main.css": "/metadoge-refund/static/css/main.e6c13ad2.css",
+    "main.js": "/metadoge-refund/static/js/main.abb3d38c.js",
+    "index.html": "/metadoge-refund/index.html",
+    "main.e6c13ad2.css.map": "/metadoge-refund/static/css/main.e6c13ad2.css.map",
+    "main.abb3d38c.js.map": "/metadoge-refund/static/js/main.abb3d38c.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
