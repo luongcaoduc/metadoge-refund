@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div style={{ padding: "8px" }}>
-      <div>
+      <div style={{ borderBottomStyle: 'solid', borderColor: 'purple'}}>
         <span style={{ fontWeight: "bold" }}>Enter your wallet address: </span>
         <input
           style={{ margin: "2px", width: "300px" }}
@@ -32,6 +32,7 @@ function App() {
             backgroundColor: "purple",
             color: "white",
             borderRadius: "10%",
+            marginBottom: '10px'
           }}
           onClick={() => {
             getRefund();
@@ -40,18 +41,18 @@ function App() {
           Search
         </button>
       </div>
-      <div>==========================================================</div>
       {refund ? (
-        <div>
+        <div style={{ marginTop: '10px'}}>
           <div>
             <span style={{ fontWeight: "bold" }}>Value</span>: {refund.value}{" "}
             BUSD
           </div>
-          {refund && refund.note ? (
+          <br />
+          {/* {refund && refund.note ? (
             <div>
               <span style={{ fontWeight: "bold" }}>Note</span>: {refund.note}
             </div>
-          ) : null}
+          ) : null} */}
         </div>
       ) : null}
     </div>
